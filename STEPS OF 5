@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main()
+{
+    
+
+   int i,a=15,b=95;
+    
+    
+    scanf("%d%d",&a,&b);
+    i=a;
+    do
+    {
+      if((i%5)==0)
+      {
+          printf("%d\n",i);
+      }
+      i++;
+    }
+    while(i<=b);
+    return 0;
+}
