@@ -1,0 +1,77 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main() {
+    float i,mark,total,per;
+    for(i=0;i<5;i++)
+        {
+    scanf("%f\n",&total);
+    scanf("%f\n",&mark);
+    per=(mark/total)*100;
+        if (per<40)
+    {
+     
+    printf("F\n");
+        }
+        else if(per<55)
+            {
+            printf("P\n");
+            }
+        else if(per<60)
+            {
+            printf("D\n");
+            }
+        else if(per<65)
+            {
+        printf("C\n");
+            }
+    else if(per<70)
+        {
+        printf("C+\n");
+        }
+    else if(per<75)
+        {
+        printf("B\n");
+        }
+    else if(per<80)
+            {
+            printf("B+\n");
+             }
+    else if(per<85)
+        {
+        printf("A\n");
+        }
+        
+      
+       else if(per<90)
+            {
+            printf("A+\n");
+            }
+        else if(per<100)
+            {
+            printf("S\n");
+        }
+
+        
+     }
+    }
+            
+    
+    
+            
+            
+
+    
+        
+        
+        
+
+
+    
+    
+    
+    
+        
+    
+
