@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+float a,b,c,Q,W,E;
+    scanf("%f\n",&a);
+    scanf("%f\n",&b);
+    scanf("%f\n",&c);
+    Q=(float)a*a+b*b+c*c;
+    W=(float)Q/3;
+    E=(float)sqrt(W);
+    printf("%.2f",E);
+    
+    return 0;
+}
