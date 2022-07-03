@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main() {
+char op;
+  double first, second;
+  
+  
+  
+  scanf("%lf\n%lf\n", &first, &second);
+    scanf("%c",&op);
+    
+        
+switch (op) {
+    case '#':
+      printf("%.1lf", first + second);
+      break;
+    case '@':
+      printf("%.1lf", second - first);
+      break;
+    case '&':
+      printf("%.1lf", first * second);
+      break;
+    case '%':
+          if(first==0){
+              printf("Not Defined");
+              }
+          else
+              {
+      printf("%.1lf",  second/first);
+              }
+      break;
+         
+        
+             
+         
+          
+              
+    
+    default:
+      printf("Error 5: Input Error");
+  }
+return 0;
+}
