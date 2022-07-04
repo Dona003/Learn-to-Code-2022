@@ -1,0 +1,30 @@
+#include <stdio.h>
+ #include <conio.h>
+  void game(char [], char []);
+ int main()
+ { 
+printf("WELCOME TO SIMPLE HANGMAN\n\n\n\n");
+printf("Name of an Animal");
+char word[20] = {'L','I','O','N'};
+ char guessed[20]; 
+game(word,guessed);
+ return 0; 
+} 
+void game(char answer[], char guess[])
+ { 
+int x = 0;
+ char letter; 
+while (x < 6) 
+{ 
+scanf("%c",&letter);
+ if (letter == answer[x]) 
+{ 
+guess[x]= letter;
+ printf("keep going\n");
+ } 
+else
+ { 
+printf("Try again\n"); 
+} ++x; 
+}
+ }
